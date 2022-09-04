@@ -151,8 +151,11 @@ if __name__ == "__main__":
         elif'who are you' in query:
             speak("I am your jarvis sir!")
             
-        elif'who are you from' in query:
+        elif'where are you from' in query:
             speak("I am your nepal sir!")
+        
+        elif'who am i' in query:
+            speak("You are Mr.Stark sir!")
 
         elif 'quit' in query or 'exit' in query or 'close' in query:
              speak("Thanks you for using Jarvis")
